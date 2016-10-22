@@ -8,14 +8,20 @@ This is a Chrome extenstion which helps you flashing DNS cache by one click.
 Ref: https://github.com/swaydeng/DNS-Flusher 
 
 ## **WARNING**
-Launch google-chrome with `--enable-net-benchmarking`
+Launch google-chrome with `--enable-net-benchmarking` !!
 
  - Ubuntu 16.04
- 
+
  Modify `/usr/share/applications/google-chrome.desktop`, and add `--enable-net-benchmarking` after `Exec=/usr/bin/google-chrome-stable`
  - Window 7
- 
+
  ![](https://dn-getlink.qbox.me/bccfa9hyi9mas2jnjkmx6r.png)
  - macOS
- 
+
  I've no Mac, so [this](https://goo.gl/VUH3Yt) may helps you.
+
+## How to use
+
+ - Click icon in toolbar
+ - Open right menu, and click the icon
+ - Use shortcut: `Command+Shift+F` for Mac or `Ctrl+Shift+F` for others
