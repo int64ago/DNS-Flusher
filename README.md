@@ -1,10 +1,21 @@
-This is a Chrome extenstion which helps you clearing DNS cache by one click.
-By using it, you don't need to open the page(chrome://net-internals/#dns) and click the button "clear host cache" any more.
+DNS Flusher Plus
+---
 
-Notice:
-To use it, it requires command line flag --enable-benchmarking when you start the chrome browser.
+This is a Chrome extenstion which helps you flashing DNS cache by one click.
 
-Chrome Web Store Page: https://chrome.google.com/webstore/detail/fegcjmebpcoihkfdjilmnemfkgjbneol
+===> [Chrome Web Store](https://goo.gl/cjWk2e) <===
 
-Source code:
-https://github.com/swaydeng/DNS-Flusher 
+Ref: https://github.com/swaydeng/DNS-Flusher 
+
+## **WARNING**
+Launch google-chrome with `--enable-net-benchmarking`
+
+ - Ubuntu 16.04
+ 
+ Modify `/usr/share/applications/google-chrome.desktop`, and add `--enable-net-benchmarking` after `Exec=/usr/bin/google-chrome-stable`
+ - Window 7
+ 
+ ![](https://dn-getlink.qbox.me/bccfa9hyi9mas2jnjkmx6r.png)
+ - macOS
+ 
+ I've no Mac, so [this](https://goo.gl/VUH3Yt) may helps you.
