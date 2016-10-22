@@ -1,19 +1,19 @@
 {
-	"name": "DNS Flusher Plus",
-	"version": "1.0.0",
-	"manifest_version": 2,
-	"description": "Flash DNS cache by one click",
-	"browser_action": {
-		"default_title": "Flush DNS & Reload"
-	},
-	"background": {
-		"scripts": ["background.js"]
-	},
-	"icons": { 
-    "128": "icon128.png" 
-	},
-	"permissions": [
-		"tabs"  
-	]
+  "name": "DNS Flusher Plus",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Flash DNS cache by one click",
+  "browser_action": {
+    "default_title": "Flush DNS & Reload"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
 }
 
