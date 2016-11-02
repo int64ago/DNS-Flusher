@@ -1,6 +1,6 @@
 {
   "name": "DNS Flusher Plus",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "manifest_version": 2,
   "description": "Flash DNS cache by one click",
   "browser_action": {
@@ -19,7 +19,9 @@
     "scripts": ["background.js"]
   },
   "icons": {
-    "128": "icon128.png"
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
   },
   "permissions": [
     "tabs",
