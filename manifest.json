@@ -1,6 +1,6 @@
 {
   "name": "DNS Flusher Plus",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "manifest_version": 2,
   "description": "Flash DNS cache by one click",
   "browser_action": {

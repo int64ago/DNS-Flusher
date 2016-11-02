@@ -14,10 +14,8 @@ chrome.browserAction.onClicked.addListener(function(){
   flashAndReload();
 });
 
-chrome.runtime.onInstalled.addListener(function() {
-  chrome.contextMenus.create({
-    'title': 'Flush DNS and reload'
-  });
+chrome.contextMenus.create({
+  'title': 'Flush DNS and reload'
 });
 
 chrome.contextMenus.onClicked.addListener(function() {
