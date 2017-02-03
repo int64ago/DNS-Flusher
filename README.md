@@ -12,7 +12,12 @@ Launch google-chrome with `--enable-net-benchmarking` !!
 
  - Ubuntu 16.04
 
- Modify `/usr/share/applications/google-chrome.desktop`, and add `--enable-net-benchmarking` after `Exec=/usr/bin/google-chrome-stable`
+Modify `/usr/share/applications/google-chrome.desktop`, and add `--enable-net-benchmarking` after `Exec=/usr/bin/google-chrome-stable`
+
+Sample script:
+```
+sudo sed -i -- 's/\/usr\/bin\/google-chrome-stable/\/usr\/bin\/google-chrome-stable --enable-net-benchmarking/g' /usr/share/applications/google-chrome.desktop
+```
 
  - Window 7
 
@@ -22,7 +27,7 @@ Launch google-chrome with `--enable-net-benchmarking` !!
 
  - macOS
 
- I've no Mac, so [this](https://goo.gl/7NuUCY) may help you.
+I've no Mac, so [this](https://goo.gl/7NuUCY) may help you.
 
 ## How to use
 
