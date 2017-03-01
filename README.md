@@ -3,7 +3,7 @@ DNS Flusher Plus
 
 This is a Chrome extenstion which helps you flashing DNS cache by one click.
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/macpeiimcafcnkengponlomdnifabnjc.svg?style=flat-square)]()
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/macpeiimcafcnkengponlomdnifabnjc.svg?style=flat-square)](https://chrome.google.com/webstore/detail/dns-flusher-plus/macpeiimcafcnkengponlomdnifabnjc)
 
 Ref: https://github.com/swaydeng/DNS-Flusher (can't work)
 
