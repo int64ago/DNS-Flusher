@@ -19,11 +19,11 @@ Sample script:
 sudo sed -i -- 's/\/usr\/bin\/google-chrome-stable/\/usr\/bin\/google-chrome-stable --enable-net-benchmarking/g' /usr/share/applications/google-chrome.desktop
 ```
 
- - Window 7
+ - Windows
 
-  - Right click on your "Chrome" icon
-  - Choose properties
-  - At the end of your target line add `--enable-net-benchmarking`
+   - Right click on your "Chrome" icon
+   - Choose properties
+   - At the end of your target line add `--enable-net-benchmarking`
 
  - macOS
 
@@ -33,4 +33,4 @@ I've no Mac, so [this](https://goo.gl/7NuUCY) may help you.
 
  - Click icon in toolbar
  - Open right menu, and click the icon
- - Use shortcut: `Command+Shift+F` for Mac or `Ctrl+Shift+F` for others
+ - Use shortcut: `Command+Shift+F` for Mac or `Ctrl+Shift+F` for others (if not occupied)
