@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Settings</title>
+  <style>
+    .container {
+      margin: 100px auto;
+      width: 400px;
+    }
+    .section {
+      margin: 5px 0;
+    }
+    fieldset {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    h1 {
+      text-align: center;
+    }
+    input {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <h1>Settings</h1>
+      <fieldset>
+        <legend>Auto Refresh</legend>
+        <div class="section">
+          <label>Enabled:</label>
+          <input type="checkbox" id="enable">
+        </div>
+        <div class="section">
+          <label>Interval(s):</label>
+          <input type="number" min="0" step="1" id="interval">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <script src="options.js"></script>
+</body>
+
+</html>

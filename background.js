@@ -1,4 +1,4 @@
-var flashAndReload = function() {
+var flashAndReload = function(noReload) {
   var bm = chrome.benchmarking,
       tabs = chrome.tabs;
   if(!bm){
@@ -7,7 +7,9 @@ var flashAndReload = function() {
   }
   bm.clearHostResolverCache();
   bm.closeConnections();
-  tabs.reload();
+  if (!noReload) {
+    tabs.reload();
+  }
 };
 
 chrome.browserAction.onClicked.addListener(function(){
