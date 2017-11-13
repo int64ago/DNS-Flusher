@@ -8,7 +8,7 @@ var flashAndReload = function(noReload) {
   bm.clearHostResolverCache();
   bm.closeConnections();
   if (!noReload && tabs) {
-    tabs.reload();
+    tabs.reload({ bypassCache: true });
   }
   console.log('[flashAndReload]');
 };
