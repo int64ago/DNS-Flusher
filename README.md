@@ -27,7 +27,12 @@ sudo sed -i -- 's/\/usr\/bin\/google-chrome-stable/\/usr\/bin\/google-chrome-sta
 
  - macOS
 
-I've no Mac, so [this](https://goo.gl/7NuUCY) may help you.
+```
+cd "/Applications/Google Chrome.app/Contents/MacOS/" && mv "Google Chrome" Google.real && printf '#!/bin/bash\ncd "/Applications/Google Chrome.app/Contents/MacOS"\n"/Applications/Google Chrome.app/Contents/MacOS/Google.real" --enable-net-benchmarking "$@"\n' > Google\ Chrome && chmod u+x "Google Chrome"
+```
+
+**Exit and reopen Chrome after adding `--enable-net-benchmarking`**
+
 
 ## How to use
 
